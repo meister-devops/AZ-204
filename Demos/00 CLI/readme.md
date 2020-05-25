@@ -31,6 +31,22 @@ az extension list-available --output table
 az extension add --name <extension-name>
 ```
 
+Another Example:
+
+```bash
+rnd=$RANDOM
+grp=az204-appservice-$rnd
+appPlan=appservice-$rnd
+web=foodweb-$rnd
+loc=westeurope
+
+# create a resource group
+az group create -n $grp -l $loc
+
+# create an App Service plan
+az appservice plan create -n $appPlan -g $grp --sku B2
+```
+
 ## Extensions
 
 [Azure Account](https://marketplace.visualstudio.com/items?itemName=ms-vscode.azure-account)
