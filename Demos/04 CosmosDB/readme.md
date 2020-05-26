@@ -4,6 +4,8 @@
 
 [Cosmos DB Playground](https://www.documentdb.com/sql/demo)
 
+[Consistency levels in Azure Cosmos DB](https://docs.microsoft.com/en-us/azure/cosmos-db/consistency-levels)
+
 ## CLI Reference
 
 [az cosmosdb](https://docs.microsoft.com/en-us/cli/azure/cosmosdb?view=azure-cli-latest)
