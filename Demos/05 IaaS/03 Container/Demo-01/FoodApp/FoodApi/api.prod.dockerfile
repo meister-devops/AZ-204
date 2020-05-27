@@ -19,7 +19,7 @@ COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "FoodApi.dll"]
 
 # Build Image
-# docker build --rm -f "app.prod.dockerfile" -t foodservice .
+# docker build --rm -f "api.prod.dockerfile" -t foodservice .
 
 # Run Image
 # docker run -it --rm -p 5051:80 foodservice

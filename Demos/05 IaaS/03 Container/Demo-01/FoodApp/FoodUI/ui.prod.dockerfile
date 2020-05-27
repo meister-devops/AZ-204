@@ -16,7 +16,7 @@ COPY --from=node /app/dist/FoodUI /usr/share/nginx/html
 # Take from project folder
 COPY ./config/nginx.conf /etc/nginx/conf.d/default.conf
 
-# docker build --rm -f "app.prod.dockerfile" -t foodui .
+# docker build --rm -f "ui.prod.dockerfile" -t foodui .
 # docker run -d --rm -p 8086:80 foodui
 
 # Publish Image to dockerhub
