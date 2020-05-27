@@ -10,7 +10,7 @@ namespace AppConfigConsole
         {
             var permissions = false;
             var builder = new ConfigurationBuilder();
-            var cs = Environment.GetEnvironmentVariable("AppConfigCS");
+            var cs = "Endpoint=https://foodconfig-16057.azconfig.io;Id=zb98-l9-s0:CB5yBnGqqVOSStEOypk8;Secret=PdsoSHAyC1qZ1/4MomNPRDTQ01SbJCT1cG1BOW9trF8=";
 
             if (permissions)
             {
@@ -32,7 +32,7 @@ namespace AppConfigConsole
 
                 var config = builder.Build();
                 Console.WriteLine(config["Settings:Title"] ?? "No Title received");
-                Console.WriteLine(config["Data:SQL"] ?? "No ConString received");
+                Console.WriteLine(config["ConnectionString:SQL"] ?? "No ConString received");
             }
         }
     }
