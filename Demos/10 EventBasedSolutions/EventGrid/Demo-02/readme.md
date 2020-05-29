@@ -1,4 +1,4 @@
-# Consume buildin Event
+# Consume custom Event
 
 - Execute `create-topic.azcli` to create `foodorder` topic and function app
 - Deploy `ConsumeTopic` app to function app
