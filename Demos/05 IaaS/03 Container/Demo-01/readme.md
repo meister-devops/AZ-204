@@ -1,5 +1,7 @@
 # Creating & Managing Containers
 
+> Note: Use FoodApp from root folder
+
 ## Docker
 
 Create Images for .NET Core Api & Angular UI using `*.dockerfile`
