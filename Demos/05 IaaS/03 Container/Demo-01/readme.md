@@ -1,6 +1,6 @@
 # Creating & Managing Containers
 
-> Note: Use FoodApp from root folder
+> Note: Use FoodApp from folder "99 FoodApp"
 
 ## Docker
 
